@@ -11,13 +11,10 @@ import pay6 from '../../public/images/pay6.png'
 import insta from '../../public/images/insta.png'
 import linkedin from '../../public/images/linkedin.png'
 import usa from '../../public/images/usa.png'
-import vector from"../../public/images/vector.png"
+import vector from "../../public/images/vector.png"
 
 
-
-export const png={arrow,heart,pay1,pay2,pay3,pay4,pay5,pay6,linkedin,insta,usa,vector}
-
-
+export const png={arrow,heart,pay1,pay2,pay3,pay4,pay5,pay6,linkedin,insta,usa, vector}
 
 
 export const navbarHeadings = [
@@ -65,3 +62,5 @@ export const filters = [
     { title: "SIZE", options: ["Small", "Medium", "Large"] },
     { title: "COLOR", options: ["Red", "Blue", "Green"] },
 ];
+
+
