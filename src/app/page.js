@@ -7,7 +7,7 @@ export default function Home() {
   return (
     <main className={`${styles.main} mainDiv`}  style={{width:"100%"}}>
       <HeroSection />
-      <ProductsSection />
+      <ProductsSection/>
     </main>
   );
 }
