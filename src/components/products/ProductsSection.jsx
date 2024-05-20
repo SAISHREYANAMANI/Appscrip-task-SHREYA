@@ -12,7 +12,7 @@ const ProductsSection = () => {
     const [showRecommend, setShowRecommend] = useState(false);
     const [itemCount, setItemCount] = useState('block');
     const [products, setProducts] = useState();
-    const [isMobile, setIsMobile] = useState(false); // New state to track if it's mobile view
+    const [isMobile, setIsMobile] = useState(false); 
 
     useEffect(() => {
         (async () => {
@@ -140,7 +140,7 @@ const ProductsSection = () => {
                         <div className="filter-section">
                             <div className="checkbox-container">
                                 <input type="checkbox" id="checkbox" />
-                                <label htmlFor="checkbox"> &nbsp; &nbsp; Customizable</label>
+                                <label htmlFor="checkbox"> &nbsp; &nbsp;<b>CUSTOMIZABLE</b></label>
                             </div>
                             {filters.map((filter, index) => (
                                 <Filter key={index} filter={filter}

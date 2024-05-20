@@ -11,6 +11,7 @@
     justify-content:space-around;
     align-items: center;
 }
+
 .topFooter{
     border-bottom: #fff 1px solid;
 }
@@ -247,7 +248,6 @@ row-gap: 15px;
         display: flex;
         flex-direction: column;
         padding: 10px 50px;
-
         align-items: start;
         border-bottom: none;
     }
